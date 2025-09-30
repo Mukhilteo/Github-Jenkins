@@ -18,7 +18,7 @@ pipeline {
         echo "Check the quality of the code....."
       }
     }
-
+    
     stage('Security Scan') {
       steps {
         echo "Scanning for vulnarabilities...."
