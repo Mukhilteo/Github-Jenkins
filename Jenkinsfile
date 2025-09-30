@@ -24,7 +24,7 @@ pipeline {
         echo "Scanning for vulnarabilities...."
       }
     }
-
+    
     stage('Deploy to Staging') {
       steps {
         echo "Deploying applicaiton to a staging server....."
